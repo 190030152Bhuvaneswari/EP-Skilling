@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Task1.xsl"?>
+<Students>
+
+	<student>
+		<idno>190030152</idno>
+		<name>Bhuvana</name>
+		<email>B@gmail.ocm</email>
+		<marks>98</marks>
+		<class>A</class>
+	</student>
+	<student>
+		<idno>190030993</idno>
+		<name>Shreelakshmi</name>
+		<email>Shree6@gmail.com</email>
+		<marks>88</marks>
+		<class>B</class>
+	</student>
+	<student>
+		<idno>190034563</idno>
+		<name>Sravani</name>
+		<email>mickey6@gmail.com</email>
+		<marks>95</marks>
+		<class>B</class>
+	</student>
+	<student>
+		<idno>190038923</idno>
+		<name>Bhavana</name>
+		<email>bhavana896@gmail.com</email>
+		<marks>60</marks>
+		<class>A</class>
+	</student>
+	<student>
+		<idno>190030983</idno>
+		<name>Venu</name>
+		<email>gvenu@gmail.com</email>
+		<marks>90</marks>
+		<class>B</class>
+	</student>
+</Students>
