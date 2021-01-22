@@ -1,0 +1,41 @@
+<html>
+<head>
+<script>
+function validation()
+{
+var user=document.f1.user.value;
+var email=document.f1.email.value;
+var at=email.indexOf('@');
+var dot=email.lastIndexOf('.');
+var len=email.length;
+//alert(user+""+email);
+if(user==null||user=="")
+{
+alert("Enter the Username properly");
+}
+else if(email==null||email=="")
+{
+alert("Enter emailId");
+//alert(at);
+}
+else if((parseIntdot)-parseInt(at))==1)
+{
+alert("Enter Valid EmailID");
+}
+else if((parseInt(len)-parseInt(dot)-1)<2)
+{
+alert("Enter Valid EmailID");
+}
+}
+</script>
+</head>
+<body>
+<form name="f1" onSubmit="validation()">
+Username:<input type="text" name="user"><br>
+EmailId:<input type="text" name="pswd"><br>
+<input type="submit" value="Login">
+
+</form>
+</form>
+</body>
+</html>

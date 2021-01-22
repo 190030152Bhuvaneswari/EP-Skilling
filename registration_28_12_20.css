@@ -1,0 +1,17 @@
+body {
+  background-image:url('image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+h1 {
+  color: navy;
+  margin-left: 40px;
+  font-family: Sofia, bold;
+}
+.container{
+	color:brown;
+	font-size:50;
+	font-family:sans-s;
+	text-align:center;
+}
